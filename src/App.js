@@ -1,23 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import CallApiCats from './components/callApiCats';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1>Enunciado del ejercicio <a href='https://www.youtube.com/watch?v=Sko0-qSRRfU' target="_blank">aquí</a></h1>
+      <CallApiCats />
     </div>
   );
 }
